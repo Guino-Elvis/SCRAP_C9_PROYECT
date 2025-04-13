@@ -1,0 +1,132 @@
+{
+    "menu": [
+        {
+            "name": "Dashboard",
+            "icon": "fa-solid fa-chart-simple",
+            "roles": ["Administrador", "Postulante"],
+            "submenu": [
+                {
+                    "url": "dashboard-general",
+                    "name": "General",
+                    "roles": ["Administrador", "Postulante"],
+                    "slug": "dashboard-general"
+                }
+            ]
+        },
+        {
+            "menuHeader": "APPS & PAGES",
+            "roles": ["Administrador", "Postulante"]
+        },
+        {
+            "name": "Configurar cuenta",
+            "icon": "fa-solid fa-user-gear",
+            "roles": ["Administrador", "Postulante"],
+            "submenu": [
+                {
+                    "url": "configurar-cuenta-perfil",
+                    "name": "Perfil",
+                    "roles": ["Administrador", "Postulante"],
+                    "slug": "configurar-cuenta-perfil"
+                }
+               
+            ]
+        },
+        {
+            "name": "Seguridad",
+            "icon": "fa-solid fa-unlock",
+            "roles": ["Administrador"],
+            "submenu": [
+                {
+                    "url": "seguridad-roles",
+                    "name": "Roles",
+                    "roles": ["Administrador"],
+                    "slug": "seguridad-roles"
+                },
+                {
+                    "url": "seguridad-permisos",
+                    "name": "Permisos",
+                    "roles": ["Administrador"],
+                    "slug": "seguridad-permisos"
+                }
+            ]
+        },
+        {
+            "url": "tabla-empresas",
+            "icon": "fa-solid fa-building",
+            "roles": ["Empresa"],
+            "name": "Empresa"
+        },
+        {
+            "url": "tabla-ofertas-laborales",
+            "icon": "fa-solid fa-building",
+            "roles": ["Empresa"],
+            "name": "Oferta Laboral"
+        },
+      
+        {
+            "menuHeader": "FORMS & TABLES",
+            "roles": ["Administrador"]
+        },
+        {
+            "url": "tabla-usuarios",
+            "icon": "fa-solid fa-users",
+            "roles": ["Administrador"],
+            "name": "Usuarios"
+        },
+        {
+            "url": "tabla-categorias",
+            "icon": "fa-solid fa-tags",
+            "roles": ["Administrador"],
+            "name": "Categorias"
+        },
+
+        {
+            "url": "tabla-empresas",
+            "icon": "fa-solid fa-building",
+            "roles": ["Administrador"],
+            "name": "Empresas"
+        },
+        {
+            "url": "tabla-ofertas-laborales",
+            "icon": "fa-solid fa-building",
+            "roles": ["Administrador"],
+            "name": "Oferta Laboral"
+        },
+
+        {
+            "menuHeader": "SALES & POSTULANTES",
+            "roles": ["Administrador"]
+        },
+        {
+            "url": "tabla-venta-clientes",
+            "icon": "fa-solid fa-restroom",
+            "roles": ["Administrador"],
+            "name": "Postulantes"
+        },
+        {
+            "name": "Registro de Postulaciones",
+            "icon": "fa-solid fa-folder-tree",
+            "roles": ["Administrador"],
+            "submenu": [
+                {
+                    "url": "registro-de-postulaciones",
+                    "name": "Postulaciones",
+                    "roles": ["Administrador"],
+                    "slug": "registro-de-postulaciones"
+                }
+               
+            ]
+        },
+        {
+            "menuHeader": "POSTULANTES & POSTULACIONES",
+            "roles": ["Postulante"]
+        },
+        {
+            "url": "registro-de-postulaciones",
+            "icon": "fa-solid fa-rectangle-list",
+            "roles": ["Postulante"],
+            "name": "Mis postulaciones"
+        }
+
+    ]
+}
