@@ -86,7 +86,7 @@
                                         <input
                                             class="w-full pr-4 py-2.5 rounded-lg text-sm text-gray-600 outline-none border border-gray-300 focus:border-green-500 focus:ring-green-500 shadow-lg"
                                             type="text" id="link" name="link"
-                                            value="https://www.bumeran.com.pe/" required>
+                                            value="https://pe.computrabajo.com/empleos-en-puno-en-juliaca" required>
                                         <button
                                             class="px-4 py-1 rounded-lg bg-gradient-to-r from-green-700 to-green-600 focus:from-green-700 focus:to-green-600 active:from-green-600 active:to-green-600 text-sm text-white font-semibold tracking-wide cursor-pointer shadow-lg"
                                             type="submit">Iniciar Scraping</button>

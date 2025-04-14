@@ -25,6 +25,7 @@ class PostulanteFactory extends Factory
                 'materno' => $this->faker->lastName(),
                 'paterno' => $this->faker->lastName(),
                 'address' => $this->faker->address(),
+                'document' => $this->faker->unique()->numerify('########'),
                 'creado' => $fechaCreacion,
             ];
     }

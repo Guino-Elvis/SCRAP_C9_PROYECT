@@ -12,6 +12,8 @@ class PostulanteSeeder extends Seeder
      */
     public function run(): void
     {
-        Postulante::factory(40)->create();
+        Postulante::factory(100)->create();
     }
 }
+
+//php artisan db:seed --class=PostulanteSeeder

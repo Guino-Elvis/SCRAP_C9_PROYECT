@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('empresas', function (Blueprint $table) {
             $table->id();
-            $table->string('ra_social');
-            $table->string('ruc');
+            $table->string('ra_social')->unique();
+            $table->string('ruc')->unique();
             $table->string('direccion');
             $table->string('telefono');
             $table->string('correo');

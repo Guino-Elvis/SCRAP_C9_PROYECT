@@ -13,8 +13,7 @@ return new class extends Migration
     {
         Schema::create('applications', function (Blueprint $table) {
             $table->id();
-            $table->string('status');
-            $table->string('numero');
+            $table->string('status');//      'PE' = PENDIENTE, 'AP'  = APROBADO ,'RE' = RECHAZADO
             $table->date('fecha_postulacion');
             $table->longText('documentos'); // Cambiado a longText para almacenar documentos
             $table->unsignedBigInteger('postulante_id');
